@@ -1,0 +1,25 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Unity meta files if they accidentally appear
+*.meta
+
+# Ignore temp upload files
+*.tmp
+*.temp
+
+# Ignore logs
+*.log
+
+# Ignore Editor/IDE files
+.vscode/
+.idea/
+
+# Ignore raw Addressables build folders (we keep only final root files)
+ServerData/
+Build/
+Library/
+obj/
+Temp/
+MemoryCaptures/
